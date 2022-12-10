@@ -39,3 +39,17 @@ var answer = addition (4,9);
 document.write(answer);
 
 
+
+function addition(){
+
+    var sum = 0;
+    for ( e = 0; e < arguments.length; e++) {
+        sum += arguments[e];
+        
+    }
+
+    console.log(sum)
+    return sum;
+
+    addition(2,4,6,8,10,11)
+}
