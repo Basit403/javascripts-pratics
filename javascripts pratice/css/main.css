@@ -1,0 +1,14 @@
+.sub{
+    margin-top: 30px;
+}
+
+.click{
+    background-color: black;
+    width: 90px;
+    padding: 10px;
+    color: white;
+}
+
+#fname{
+    outline: none;
+}
