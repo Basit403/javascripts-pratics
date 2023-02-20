@@ -1,8 +1,4 @@
-function average(a,b,c,d,e) {
+function showmessage() {
+    document.getElementById('example').innerHTML = "TODAY IS TUESDAY!";
     
-    var div = (a / b);
-    return div;
 }
-
-var myresult = average (3,4,9,9)
-document.write(myresult);
